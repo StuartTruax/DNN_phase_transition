@@ -1,0 +1,6 @@
+*.h5
+*.pkl
+.ipynb_*
+.DS_Store
+trials_128_mc_steps*
+CNN_Equity*

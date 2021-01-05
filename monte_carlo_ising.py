@@ -117,7 +117,7 @@ if __name__=="__main__":
 
         state = generate_square_lattice_state(N_lattice)
 
-        #equilibriation moves
+        #equilibration moves
         for i in range(equilibriation_steps):
             metropolis_increment(state, J, 1.0/temp_point)
 

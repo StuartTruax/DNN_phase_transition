@@ -66,7 +66,6 @@ def calculate_energy(state,J,h=0):
     for i in range(N):
         for j in range(N):
             #sum the coupling energy from all relevant neighbor pairings
-            #backward
             neighbor_spin_sum = state[(i+1)%N,j]+state[i,(j+1)%N] +\
                                 state[(i-1)%N,j]+state[i,(j-1)%N]
 
